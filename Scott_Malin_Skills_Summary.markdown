@@ -1,5 +1,5 @@
 # Scott Malin – Master Skills & Experience Summary  
-*Last Updated: January 26, 2026 – 2:00 PM EST – Added GitHub repo confirmation + minor refinements*
+*Last Updated: January 28, 2026 – Added Script Documentation Reviewer prompt*
 
 ## Professional Overview  
 Senior cybersecurity leader with **30 years at Aetna → CVS** (desktop 1994, security engineer 2002, senior 2021).  
@@ -9,8 +9,17 @@ Automation ninja—PowerShell, Python, Splunk KPI collectors.
 Zero-Trust via Intune + Entra ID + Zscaler (contributed to 35–40% lateral-movement reduction).  
 CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 
+## Certifications
+- CISSP (ISC², Member ID: 76351)
+- Certified Ethical Hacker (CEH)
+- Microsoft Azure Security Engineer Associate (in progress, expected 1H 2026)
+- Symantec Certified Specialist – Endpoint Protection
+- Tanium Certified Operator
+
 ### Recent Additions & Updates
-- January 26, 2026: Confirmed publication of 6 AI prompt repositories on GitHub (scottmalin68-commits); added account status note and upload plan for this file.
+- January 28, 2026: Added Script Documentation Reviewer AI prompt (reviews script documentation for clarity, completeness, best practices).
+- January 27, 2026: Expanded GitHub with PowerShell AD security scripts (privilege analysis, attack path graphing, posture scanning) and new AI prompts (DBAR design, executive RCA summaries, vendor claim evaluation, role resilience assessment).
+- January 26, 2026: Confirmed publication of repositories on GitHub (scottmalin68-commits); added account status note and upload plan for this file.
 - January 13, 2026 (PATCH v2026-01-13): Added job search snapshot, interview prep notes, and public repositories section.
 - Ongoing: Brainstormed prompt extensions (Regex RPG, Git RPG, Linux/Bash RPG, Networking RPG, Python Basics RPG, Cybersecurity Basics RPG) – outlines only, no full implementation yet.
 
@@ -54,6 +63,17 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
   **Role:** Security Engineer – Aetna  
 - **Reversed to SEP (2014)** – decommissioned when low-impact engines matured.
 
+### Active Directory Security & Privilege Automation  
+- Developed PowerShell security toolkit for enterprise AD environments:  
+  - AD-PrivilegeAnalyzer.ps1: Detects privilege drift, shadow admins, unintended inheritance; ranks high-risk accounts/groups.  
+  - AD-Security-Posture-Scanner.ps1: Scans for misconfigurations, weak delegation, insecure defaults.  
+  - Invoke-ADAttackPathShortener.ps1: Graphs shortest escalation paths to Domain Admins from any user.  
+  - Invoke-ADLeastPrivilegeAdvisor.ps1: Identifies unused access, stale groups/memberships; recommends least-privilege fixes.  
+  - Why-WasAccountLocked.ps1: Investigates account lockout root causes.  
+  - RepoHealthChecker.psm1: Module for evaluating Git repo structure/documentation quality.  
+**GitHub:** https://github.com/scottmalin68-commits/Powershell_Scripts  
+These tools extend BeyondTrust PAM principles into proactive AD hygiene and escalation risk reduction.
+
 ## Security Clearance  
 - **None held** – eligible for Secret upon sponsorship.  
 
@@ -62,7 +82,7 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - Focus on: 30 years tenure, Defender Firewall SME, BeyondTrust PAM rollout, Symantec → CrowdStrike migration, Zero Trust contributions, automation wins (40% vuln drop, 80% manual reduction), incident leadership (100% SLA).
 
 ## AI Prompt Engineering
-Authored custom AI prompts to enhance cybersecurity operations, incident handling, knowledge transfer, and job search efficiency:
+Authored custom AI prompts to enhance cybersecurity operations, incident handling, knowledge transfer, automation quality, and job search efficiency:
 
 **Cybersecurity Prompts**  
 - Scam Detection Conversation Helper  
@@ -91,7 +111,22 @@ Authored custom AI prompts to enhance cybersecurity operations, incident handlin
 - Firewall Rule Optimization Challenge  
 - Cyberscam Survival Simulator  
 - Access Policy Architect — Design Generator  
-- Conditional Access Policy Analyzer (Deep-Dive Audit + Simulation Suite)
+- Conditional Access Policy Analyzer (Deep-Dive Audit + Simulation Suite)  
+- Executive-Safe IT Resourcing & Staffing Justification  
+- Vendor Claim Evaluator – Security Edition  
+- Role Resilience & Knowledge Concentration Assessment  
+- Cybersecurity Threat Intelligence Aggregator - Human Readable output  
+- Root cause analysis (general support prompt)
+
+**Azure IAM & Governance Prompts**  
+- Conditional Access Policy Analyzer (Deep-Dive Audit + Simulation Suite)  
+- Azure Hardening Advisor  
+- Access Policy Architect — Design Generator  
+- IAM Policy Simulator  
+- Documentation Generator for Conditional Access Policies
+
+**Scripting & Development Prompts**  
+- Script Documentation Reviewer: Analyzes PowerShell (or other scripts) for documentation gaps, clarity, structure, comments, usage examples, error handling notes, and best practices. Suggests improvements for maintainability, readability, and knowledge transfer.
 
 **Job-Search & Career Prompts**  
 - Generate a skills and experience markdown file  
@@ -127,18 +162,18 @@ Authored custom AI prompts to enhance cybersecurity operations, incident handlin
 Additional brainstormed extensions (outlines only): Regex RPG, Git RPG, Linux/Bash RPG, Networking RPG, Python Basics RPG, Cybersecurity Basics RPG.
 
 ### AI Prompt Engineering – Public Repositories
-Published 6 repositories of custom AI prompts on GitHub to share practical tools for cybersecurity, technical training, career development, and general productivity.  
+Published repositories of custom AI prompts and PowerShell tools on GitHub to share practical tools for cybersecurity, technical training, career development, automation, and general productivity.  
 **GitHub:** https://github.com/scottmalin68-commits  
 Repositories include:  
-- Cybersecurity-focused prompts (scam detection, threat briefs, incident communications, Zero Trust games, IR simulators)  
-- Technical training simulations (SQL RPG, AWS RPG, Kubernetes/Docker RPG, SQL/Linux terminal simulators)  
-- Career and job-search tools (interview confidence, career fit explorer, resume prep prompts)  
-- General awareness and analysis (cyberscam survival simulator, fallacy finder, food scout, travel planner)  
+- Cybersecurity-Prompts: Expanded with executive comms (RCA summaries, resourcing justifications), DBAR tools, vendor evaluators, threat aggregators (human-readable/exec versions)  
+- Azure-Related-Prompts: Conditional Access/IAM analyzers, simulators, hardening advisors, policy architects  
+- Powershell_Scripts: AD privilege/escalation/posture automation scripts (privilege drift detection, attack path shortener, posture scanner)  
+- Script-Documentation-Reviewer: AI prompt for reviewing and improving script documentation  
+- Job-Search-Career-Prompts, Misc-AI-Prompts, Learning-Games-prompts  
 
-All prompts emphasize strict hallucination controls, session state management, deterministic behavior, and user-focused outcomes.  
-Account temporarily suspended (resolved soon); planning to upload a public copy of this skills summary markdown to the repo for easy reference and sharing.
+All prompts emphasize strict hallucination controls, session state management, deterministic behavior, and user-focused outcomes.
 
-## One-Click LinkedIn Summary (1392 chars)  
+## One-Click LinkedIn Summary (approx. 1400 chars)  
 30-yr Aetna→CVS veteran | 22 yrs security engineering | CISSP  
 Led BeyondTrust EPM privilege reduction (~2,500 devs; stripped ~5K admins)  
 Built 200-node McAfee MOVE grid → 40k VDI, zero disk storms  
@@ -146,9 +181,10 @@ Led Symantec removal (~120K endpoints) → CrowdStrike AV flip; decommissioned 1
 Primary SME for ~30 elegant Defender Firewall rules  
 PowerShell/Python ninja | Contributed to Zero-Trust via Intune+Entra ID+Zscaler  
 NIST 800-53 auditor | Azure/AWS hardened  
+Developed PowerShell AD security tools (privilege analysis, escalation paths)  
+GitHub: AI prompts (cybersecurity/exec comms/Azure IAM/script doc reviewer) + PowerShell AD tools → github.com/scottmalin68-commits  
 Hartford County, CT or 100% remote | Ready Day-1  
-860-604-3821 | linkedin.com/in/scottmmalin  
-Published 6 GitHub repos of AI prompts for cybersecurity & training: github.com/scottmalin68-commits
+860-604-3821 | linkedin.com/in/scottmmalin
 
 ## Recruiter Email Template  
 Subject: Scott Malin – Your Next Firewall/EPM SME (Hartford or Remote)  
