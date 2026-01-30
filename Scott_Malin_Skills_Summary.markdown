@@ -17,6 +17,7 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - Tanium Certified Operator
 
 ### Recent Additions & Updates
+- January 30, 2026: Corrected details around the BeyondTrust EPM rollout
 - January 29, 2026: Added LinkedIn Sharing Activity note under AI Prompt Engineering.
 - January 28, 2026: Added Script Documentation Reviewer AI prompt (reviews script documentation for clarity, completeness, best practices).
 - January 27, 2026: Expanded GitHub with PowerShell AD security scripts (privilege analysis, attack path graphing, posture scanning) and new AI prompts (DBAR design, executive RCA summaries, vendor claim evaluation, role resilience assessment).
