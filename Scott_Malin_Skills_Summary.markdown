@@ -4,7 +4,7 @@
 ## Professional Overview
 Senior cybersecurity leader with **30 years at Aetna → CVS** (desktop 1994, security engineer 2002, senior 2021).
 Primary SME for **~30 elegant Defender Firewall rules** across 250,000 endpoints.
-Led **BeyondTrust EPM** privilege reduction (~2,500 devs; stripped ~5K local admins), **McAfee MOVE** (200 Windows virtual scanner nodes for 40k VDI), and **Symantec → CrowdStrike** (led removal across ~120K endpoints; decommissioned 10 virtual servers).
+Led **BeyondTrust EPM** rollout across ~5,000 developers and over 7,500 systems, bridging legacy Aetna and CVS privilege setups post-merger and stripping thousands of unnecessary local admin accounts to enforce least privilege, **McAfee MOVE** (200 Windows virtual scanner nodes for 40k VDI), and **Symantec → CrowdStrike** (led removal across ~120K endpoints; decommissioned 10 virtual servers).
 Automation ninja—PowerShell, Python, Splunk KPI collectors.
 Zero-Trust via Intune + Entra ID + Zscaler (contributed to 35–40% lateral-movement reduction).
 CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
@@ -84,7 +84,6 @@ These tools extend BeyondTrust PAM principles into proactive AD hygiene and esca
 
 ## AI Prompt Engineering
 Authored custom AI prompts to enhance cybersecurity operations, incident handling, knowledge transfer, automation quality, and job search efficiency:
-
 **Cybersecurity Prompts**
 - Scam Detection Conversation Helper
 - Daily Cyber Threat Brief
@@ -118,17 +117,14 @@ Authored custom AI prompts to enhance cybersecurity operations, incident handlin
 - Role Resilience & Knowledge Concentration Assessment
 - Cybersecurity Threat Intelligence Aggregator - Human Readable output
 - Root cause analysis (general support prompt)
-
 **Azure IAM & Governance Prompts**
 - Conditional Access Policy Analyzer (Deep-Dive Audit + Simulation Suite)
 - Azure Hardening Advisor
 - Access Policy Architect — Design Generator
 - IAM Policy Simulator
 - Documentation Generator for Conditional Access Policies
-
 **Scripting & Development Prompts**
 - Script Documentation Reviewer: Analyzes PowerShell (or other scripts) for documentation gaps, clarity, structure, comments, usage examples, error handling notes, and best practices. Suggests improvements for maintainability, readability, and knowledge transfer.
-
 **Job-Search & Career Prompts**
 - Generate a skills and experience markdown file
 - Resume prep based on information in the skills markdown file
@@ -137,7 +133,6 @@ Authored custom AI prompts to enhance cybersecurity operations, incident handlin
 - Role-Based Market Skill Expansion Advisor
 - Career Fit Explorer
 - Adaptive Personality Interview Engine
-
 **General / Non-Cybersecurity Prompts**
 - LIFE MODE, FINANCIAL SURVIVAL SIMULATOR
 - Writer’s Block - writing-style analysis engine
@@ -149,26 +144,21 @@ Authored custom AI prompts to enhance cybersecurity operations, incident handlin
 - Ultimate Travel Planner AI
 - Network Engineer: Home Edition
 - AI Trivia Game: "You Probably Don't Know This"
-
 **Technical Training & Simulation Prompts**
 - SQL RPG Learning Engine (v1.2)
 - AWS Cloud RPG Learning Engine (v1.0)
 - Kubernetes & Docker RPG Learning Engine (v1.0)
 - SQL Terminal Simulator (Training Aid)
 - Linux Terminal Simulation (Training Aid)
-
 **Miscellaneous**
 - When to Clear the Driveway and How
-
 Additional brainstormed extensions (outlines only): Regex RPG, Git RPG, Linux/Bash RPG, Networking RPG, Python Basics RPG, Cybersecurity Basics RPG.
-
 ### LinkedIn Sharing Activity
 Shared several of these AI prompts on LinkedIn to demonstrate practical tools for cybersecurity teams, awareness training, and executive communication:
 - Posted 10+ prompts (e.g., Vendor Claim Evaluator, Scam Detection Conversation Helper v2.2 update, Conditional Access Policy Analyzer, Incident Command IR Simulator, etc.)
 - Focus: Enterprise security operations, phishing protection for everyday users, threat intelligence, policy review, and incident handling
 - Goal: Build visibility, share reusable tools, and connect with peers/recruiters in the field
 - Track full list in GitHub README: https://github.com/scottmalin68-commits/scottmalin68-commits/blob/main/README.md
-
 ### AI Prompt Engineering – Public Repositories
 Published repositories of custom AI prompts and PowerShell tools on GitHub to share practical tools for cybersecurity, technical training, career development, automation, and general productivity.
 **GitHub:** https://github.com/scottmalin68-commits
@@ -192,6 +182,17 @@ Developed PowerShell AD security tools (privilege analysis, escalation paths)
 GitHub: AI prompts (cybersecurity/exec comms/Azure IAM/script doc reviewer) + PowerShell AD tools → github.com/scottmalin68-commits
 Hartford County, CT or 100% remote | Ready Day-1
 860-604-3821 | linkedin.com/in/scottmmalin
+
+## Tell me about yourself
+"Sure. I started my career in IT operations at Aetna back in 1994, doing desktop support and regional admin work. That gave me a strong foundation in troubleshooting endpoints and understanding how security decisions impact daily operations.
+
+In 2002, I moved into security engineering, and I've stayed there ever since—22 years focused on endpoint protection and access controls. I became the primary SME for Microsoft Defender Firewall rules across roughly 250,000 endpoints, designing and maintaining about 30 elegant, location-aware policies with zero-outage transitions.
+
+A couple of projects I'm proud of: I led the BeyondTrust EPM rollout across roughly 5,000 developers and over 7,500 systems. It bridged the Aetna and CVS sides after the merger—different legacy privilege setups on each—and stripped thousands of unnecessary local admin accounts to enforce least privilege enterprise-wide. Later, I drove the Symantec Endpoint Protection removal across ~120,000 endpoints, consolidated to CrowdStrike Falcon, and decommissioned 10 virtual servers. Both delivered measurable risk reduction and efficiency gains.
+
+What keeps me in this field is the puzzle-solving aspect—automating workflows with PowerShell and Python, tuning EDR like CrowdStrike, and building Zero Trust layers with Intune, Entra ID, and Zscaler to cut lateral movement.
+
+Your role caught my eye because it involves [specific endpoint security or automation challenge from the JD], and I think my hands-on experience with large-scale endpoint hardening and scripting could help right away."
 
 ## Recruiter Email Template
 Subject: Scott Malin – Your Next Firewall/EPM SME (Hartford or Remote)
