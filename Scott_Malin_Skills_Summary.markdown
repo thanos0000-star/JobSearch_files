@@ -17,7 +17,7 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - Tanium Certified Operator
 
 ### Recent Additions & Updates
-- January 30, 2026: Corrected details around the BeyondTrust EPM rollout
+- January 30, 2026: Corrected details around the BeyondTrust EPM rollout, updated Matrix and Added two lines to Interview Prep Quick Notes for the elevator pitch practice.
 - January 29, 2026: Added LinkedIn Sharing Activity note under AI Prompt Engineering.
 - January 28, 2026: Added Script Documentation Reviewer AI prompt (reviews script documentation for clarity, completeness, best practices).
 - January 27, 2026: Expanded GitHub with PowerShell AD security scripts (privilege analysis, attack path graphing, posture scanning) and new AI prompts (DBAR design, executive RCA summaries, vendor claim evaluation, role resilience assessment).
@@ -40,7 +40,7 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 |---|-------|-------|------------|--------------|
 | 1 | Zero Trust | Expert | Entra ID + Zscaler → 35–40% fewer lateral moves | `Zero Trust`, `Entra ID`, `Conditional Access`, `Zscaler` |
 | 2 | EDR | Expert | CrowdStrike backup SME; tuned Windows/macOS/Linux | `CrowdStrike Falcon`, `EDR` |
-| 3 | PAM | Expert | BeyondTrust EPM → 5,000 local admins stripped | `BeyondTrust`, `PAM`, `Least Privilege` |
+| 3 | PAM | Expert | BeyondTrust EPM rollout → ~5,000 developers / 7,500+ systems; bridged Aetna/CVS post-merger; stripped thousands of local admins | `BeyondTrust`, `PAM`, `Least Privilege` |
 | 4 | IGA | No | — | — |
 | 5 | CSPM | No | — | — |
 | 6 | SOAR | Strong | PowerShell/Python automation for remediation workflows | `PowerShell`, `Python`, `Automation` |
@@ -82,6 +82,8 @@ These tools extend BeyondTrust PAM principles into proactive AD hygiene and esca
 ## Interview Prep Quick Notes
 - General approach: Keep answers short, positive, tie to experience. Use STAR format when possible.
 - Focus on: 30 years tenure, Defender Firewall SME, BeyondTrust PAM rollout, Symantec → CrowdStrike migration, Zero Trust contributions, automation wins (40% vuln drop, 80% manual reduction), incident leadership (100% SLA).
+- Have practiced 90–120 sec "Tell me about yourself" elevator pitch focused on endpoint security progression and key projects.
+- Practice delivery: Speak naturally, pause after achievements, end with tie to the role.
 
 ## AI Prompt Engineering
 Authored custom AI prompts to enhance cybersecurity operations, incident handling, knowledge transfer, automation quality, and job search efficiency:
@@ -194,6 +196,7 @@ A couple of projects I'm proud of: I led the BeyondTrust EPM rollout across roug
 What keeps me in this field is the puzzle-solving aspect—automating workflows with PowerShell and Python, tuning EDR like CrowdStrike, and building Zero Trust layers with Intune, Entra ID, and Zscaler to cut lateral movement.
 
 Your role caught my eye because it involves [specific endpoint security or automation challenge from the JD], and I think my hands-on experience with large-scale endpoint hardening and scripting could help right away."
+
 
 ## Recruiter Email Template
 Subject: Scott Malin – Your Next Firewall/EPM SME (Hartford or Remote)
