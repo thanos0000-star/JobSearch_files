@@ -1,5 +1,5 @@
 # Scott Malin – Master Skills & Experience Summary
-*Last Updated: January 29, 2026 – Added LinkedIn Sharing Activity note*
+*Last Updated: January 31, 2026 – Added 7 new LinkedIn-related AI prompts to Job-Search & Career Prompts section*
 
 ## Professional Overview
 Senior cybersecurity leader with **30 years at Aetna → CVS** (desktop 1994, security engineer 2002, senior 2021).
@@ -17,6 +17,7 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - Tanium Certified Operator
 
 ### Recent Additions & Updates
+- January 31, 2026: Added 7 new LinkedIn-related AI prompts to Job-Search & Career Prompts section.
 - January 30, 2026: Corrected details around the BeyondTrust EPM rollout, updated Matrix and Added two lines to Interview Prep Quick Notes for the elevator pitch practice.
 - January 29, 2026: Added LinkedIn Sharing Activity note under AI Prompt Engineering.
 - January 28, 2026: Added Script Documentation Reviewer AI prompt (reviews script documentation for clarity, completeness, best practices).
@@ -83,43 +84,7 @@ These tools extend BeyondTrust PAM principles into proactive AD hygiene and esca
 - General approach: Keep answers short, positive, tie to experience. Use STAR format when possible.
 - Focus on: 30 years tenure, Defender Firewall SME, BeyondTrust PAM rollout, Symantec → CrowdStrike migration, Zero Trust contributions, automation wins (40% vuln drop, 80% manual reduction), incident leadership (100% SLA).
 - Have practiced 90–120 sec "Tell me about yourself" elevator pitch focused on endpoint security progression and key projects.
-- Practice delivery: Speak naturally, pause after achievements, end with tie to the role.
-
-## AI Prompt Engineering
-Authored custom AI prompts to enhance cybersecurity operations, incident handling, knowledge transfer, automation quality, and job search efficiency:
-**Cybersecurity Prompts**
-- Scam Detection Conversation Helper
-- Daily Cyber Threat Brief
-- Root Cause Analyst: Executive Summary Generator for Root Cause Analysis
-- Senior Cybersecurity Incident Communications Assistant
-- Security Knowledge Transfer Engine
-- Security Knowledge Transfer Query Prompt
-- Security Decision Review Assistant – Checklist Mode
-- Executive-Safe Security Decision Explanation
-- Disaster Backup & Recovery (DBAR) Design Companion
-- DBAR Communication & Audience Translation Assistant
-- Advanced Cybersecurity Threat Intelligence Aggregator (v1.7, shared on forums)
-- Documentation Gap & Clarity Analyzer
-- Plain-Language Help Assistant for Non-Technical Users
-- Plain-English Security Concept Explainer
-- Interactive Security Tutor
-- Social Engineering Awareness Quiz
-- Security Awareness Quiz
-- Secure Network Engineering Assistant
-- Audio Meeting Analyst
-- ENTERPRISE DEFENSE ANATOMY, IDENTIFICATION & REASONING GAME
-- Zero Trust Decision Tree Game
-- Incident Response Tabletop Simulator
-- Privilege Management Trade-off Trainer
-- Firewall Rule Optimization Challenge
-- Cyberscam Survival Simulator
-- Access Policy Architect — Design Generator
-- Conditional Access Policy Analyzer (Deep-Dive Audit + Simulation Suite)
-- Executive-Safe IT Resourcing & Staffing Justification
-- Vendor Claim Evaluator – Security Edition
-- Role Resilience & Knowledge Concentration Assessment
-- Cybersecurity Threat Intelligence Aggregator - Human Readable output
-- Root cause analysis (general support prompt)
+- Practice de...(truncated 1735 characters)...e analysis (general support prompt)
 **Azure IAM & Governance Prompts**
 - Conditional Access Policy Analyzer (Deep-Dive Audit + Simulation Suite)
 - Azure Hardening Advisor
@@ -136,6 +101,13 @@ Authored custom AI prompts to enhance cybersecurity operations, incident handlin
 - Role-Based Market Skill Expansion Advisor
 - Career Fit Explorer
 - Adaptive Personality Interview Engine
+- LinkedIn Summary Crafting Prompt: Builds authentic, concise "About" sections (1,500–2,000 characters) with hooks, quantifiable achievements, and recruiter appeal using resume data.
+- LinkedIn Profile Positioning Interview v2.2: Helps strategically position a profile to attract the right recruiters and roles while staying fully authentic.
+- LinkedIn Profile Analyzer: Reviews a LinkedIn profile for weaknesses (e.g., recruiter scanning, ATS gaps, branding) and suggests targeted, realistic improvements.
+- Mentor Recommendation Outreach Generator: Writes natural LinkedIn messages to former supervisors or mentors requesting recommendations or referrals.
+- LinkedIn Connection Request Note Generator: Creates short, human-sounding personalized notes for connection requests to colleagues, mentors, or advisors.
+- LinkedIn Profile Imitation Analyzer: Analyzes strong profiles for effective patterns and suggests authentic ways to adapt them to your own.
+- LinkedIn ↔ Resume Conflict Checker: Compares LinkedIn and resume for factual mismatches, keyword gaps, or credibility issues, with fixes to ensure consistency for recruiters and ATS.
 **General / Non-Cybersecurity Prompts**
 - LIFE MODE, FINANCIAL SURVIVAL SIMULATOR
 - Writer’s Block - writing-style analysis engine
