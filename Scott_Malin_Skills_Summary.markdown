@@ -1,5 +1,5 @@
 # Scott Malin – Master Skills & Experience Summary
-*Last Updated: January 31, 2026 – Added 7 new LinkedIn-related AI prompts to Job-Search & Career Prompts section*
+*Last Updated: February 16, 2026 – Updated AI Prompt Library with full categorization from latest report (FileReport_Last180Days_2026-02-16_1108.csv)*
 
 ## Professional Overview
 Senior cybersecurity leader with **30 years at Aetna → CVS** (desktop 1994, security engineer 2002, senior 2021).
@@ -17,6 +17,7 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - Tanium Certified Operator
 
 ### Recent Additions & Updates
+- February 16, 2026: Updated AI Prompt Library with full categorization from latest report (FileReport_Last180Days_2026-02-16_1108.csv).
 - January 31, 2026: Added 7 new LinkedIn-related AI prompts to Job-Search & Career Prompts section.
 - January 30, 2026: Corrected details around the BeyondTrust EPM rollout, updated Matrix and Added two lines to Interview Prep Quick Notes for the elevator pitch practice.
 - January 29, 2026: Added LinkedIn Sharing Activity note under AI Prompt Engineering.
@@ -71,69 +72,181 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
   - AD-PrivilegeAnalyzer.ps1: Detects privilege drift, shadow admins, unintended inheritance; ranks high-risk accounts/groups.
   - AD-Security-Posture-Scanner.ps1: Scans for misconfigurations, weak delegation, insecure defaults.
   - Invoke-ADAttackPathShortener.ps1: Graphs shortest escalation paths to Domain Admins from any user.
-  - Invoke-ADLeastPrivilegeAdvisor.ps1: Identifies unused access, stale groups/memberships; recommends least-privilege fixes.
-  - Why-WasAccountLocked.ps1: Investigates account lockout root causes.
-  - RepoHealthChecker.psm1: Module for evaluating Git repo structure/documentation quality.
-**GitHub:** https://github.com/scottmalin68-commits/Powershell_Scripts
-These tools extend BeyondTrust PAM principles into proactive AD hygiene and escalation risk reduction.
+  - Invoke-ADLeastPrivilegeAdvisor.ps1: Identifies unused access, stale groups/...(truncated 2950 characters)...d resume for factual mismatches, keyword gaps, or credibility issues, with fixes to ensure consistency for recruiters and ATS.
 
-## Security Clearance
-- **None held** – eligible for Secret upon sponsorship.
+## AI Prompt Library – Master List
 
-## Interview Prep Quick Notes
-- General approach: Keep answers short, positive, tie to experience. Use STAR format when possible.
-- Focus on: 30 years tenure, Defender Firewall SME, BeyondTrust PAM rollout, Symantec → CrowdStrike migration, Zero Trust contributions, automation wins (40% vuln drop, 80% manual reduction), incident leadership (100% SLA).
-- Have practiced 90–120 sec "Tell me about yourself" elevator pitch focused on endpoint security progression and key projects.
-- Practice de...(truncated 1735 characters)...e analysis (general support prompt)
-**Azure IAM & Governance Prompts**
-- Conditional Access Policy Analyzer (Deep-Dive Audit + Simulation Suite)
-- Azure Hardening Advisor
-- Access Policy Architect — Design Generator
-- IAM Policy Simulator
-- Documentation Generator for Conditional Access Policies
-**Scripting & Development Prompts**
-- Script Documentation Reviewer: Analyzes PowerShell (or other scripts) for documentation gaps, clarity, structure, comments, usage examples, error handling notes, and best practices. Suggests improvements for maintainability, readability, and knowledge transfer.
-**Job-Search & Career Prompts**
-- Generate a skills and experience markdown file
-- Resume prep based on information in the skills markdown file
-- Job Evaluation Prompt using information in the markdown file
-- Pre-interview motivation prompt
+### Job-Search-Career-Prompts
+- Reference Auditor & Formatter
+- The Human-Centric Resume Auditor & Storyteller (Goal: DE-AUTOMATE AND HUMANIZE RESUME CONTENT)
+- Cover Letter Quality Reviewer – Green Flag Edition
+- Resume Quality Reviewer – Green Flag Edition
+- Safe Offer Negotiation Assistant
+- ATS Resume Scanner Simulator
+- Elevator Generator
+- Career Data Enhancer ([Insert or confirm target role])
+- Contacts Collector
+- Resume Customization Prompt – MAXIMUM INTEGRITY VERSION
+- LinkedIn ↔ Resume Conflict Checker
+- LinkedIn Profile Imitation Analyzer
+- LinkedIn Connection Request Note Generator
+- Mentor Recommendation Outreach Generator
+- LinkedIn Profile Analyzer
+- LinkedIn Profile Positioning Interview
+- LinkedIn Summary Crafting Prompt
+- Universal Job Fit Evaluation Prompt
 - Role-Based Market Skill Expansion Advisor
-- Career Fit Explorer
-- Adaptive Personality Interview Engine
-- LinkedIn Summary Crafting Prompt: Builds authentic, concise "About" sections (1,500–2,000 characters) with hooks, quantifiable achievements, and recruiter appeal using resume data.
-- LinkedIn Profile Positioning Interview v2.2: Helps strategically position a profile to attract the right recruiters and roles while staying fully authentic.
-- LinkedIn Profile Analyzer: Reviews a LinkedIn profile for weaknesses (e.g., recruiter scanning, ATS gaps, branding) and suggests targeted, realistic improvements.
-- Mentor Recommendation Outreach Generator: Writes natural LinkedIn messages to former supervisors or mentors requesting recommendations or referrals.
-- LinkedIn Connection Request Note Generator: Creates short, human-sounding personalized notes for connection requests to colleagues, mentors, or advisors.
-- LinkedIn Profile Imitation Analyzer: Analyzes strong profiles for effective patterns and suggests authentic ways to adapt them to your own.
-- LinkedIn ↔ Resume Conflict Checker: Compares LinkedIn and resume for factual mismatches, keyword gaps, or credibility issues, with fixes to ensure consistency for recruiters and ATS.
-**General / Non-Cybersecurity Prompts**
-- LIFE MODE, FINANCIAL SURVIVAL SIMULATOR
-- Writer’s Block - writing-style analysis engine
-- AI Process Feasibility Interview
+- Master Skills & Experience Summary Generator ([Insert target role/industry])
+- Job-Application Tracker Template
+- Interview Confidence & Fit Prompt
+- Customizable Job Scanner
+- Career Interview Data Collector ([Insert or confirm target role])
+
+### Cybersecurity-Prompts
+- Cybersecurity Playbook Architect (NIST-aligned IR Playbook builder)
+- Incident Playbook Organizer and Updater
+- Digital Behavior Anomaly Checker
+- Adversarial Noise Detection Engine
+- Vendor Claim Evaluator – Security Edition
+- Security Knowledge Transfer Query Prompt
+- Senior Cybersecurity Incident Communications Assistant
+- Security Knowledge Transfer Engine
+- Security Decision Review Assistant
+- Secure Network Engineering Assistant
+- Scam Detection Conversation Helper
+- Root cause analysis
+- Role Resilience & Knowledge Concentration Assessment
+- Executive-Safe Security Decision Explanation
+- Executive-Safe IT Resourcing & Staffing Justification
+- Executive Summary Generator for Root Cause Analysis
+- Disaster Backup & Recovery (DBAR) Design Companion
+- Daily Cyber Threat Brief
+- DBAR Communication & Audience Translation Assistant
+- Cybersecurity Threat Intelligence Aggregator - Human Readable output
+- Advanced Cybersecurity Threat Intelligence Aggregator
+
+### Cybersecurity-Learning-Prompts
+- Live Scam Threat Briefing
+- Threat Model the Human
+- Security Myth Buster
+- Escape Room — Adaptive Cybersecurity Learning Game Prompt
+- Signal vs Noise – Team Adversarial Judgment Workshop
+- Signal vs Noise – Adversarial Judgment Trainer
+- Security Concept of the Day
+- Security Awareness Quiz
+- Social Engineering specific quiz
+- Security Awareness Personalization Lab (Facilitator-Led, Game-Based)
+- Security Awareness Personalization Engine (Interview-Driven)
+- Plain-English Security Concept Explainer
+- Interactive Security Tutor
+- Incident Command - IR Simulator game
+- Facilitator-Led Security Awareness Quiz
+- Explain It Wrong (On Purpose) – Security Edition
+- Enterprise defense anatomy – identification & reasoning game
+- Cyberscam Survival Simulator
+- Adversarial Tutor – Security Reasoning Edition
+- The Boardroom Translator
+- Security Stakeholder Translator & Communication Coach
+- Cybersecurity Design Challenge Game
+
+### Misc-AI-Prompts
+- Hallucination Vulnerability Prompt Checker
+- Patient Subject Tutor (v2.1)
+- Sector Growth Stock Analysis (v1.7)
+- Multi-Agent Fact-Checking System
+- Signal & Shelf
+- Gathering Planner Interview
+- Lazy AI Email Detector
+- Prompt Refinement Engine
+- Olympic Games Events Weekly Listings Prompt
+- Sports Events Weekly Listings Prompt
+- Analogy Generator
+- Content Processor
+- Code Recon
+- Useful Summary
+- Writer’s Block
+- Ultimate Travel Planner AI Prompt (v2.3)
+- Trend-researcher
+- The rest of the story
+- TV Premiere Weekly Listing Prompt
+- Supercharged Fallacy Finder Prompt
+- Project Skill & Resource Interviewer
+- Plain-Language Help Assistant for Non-Technical Users
+- PlainTalk Style Guide
+- Personality Interview Engine
+- Non-Technical IT Help & Clarity Assistant
+- Network Engineer - Home Edition
 - Long-Term Equity Investment Analysis Framework
-- Cognitive Load & Work Strain Mapping Interview
+- Lifehacks related to tasks
+- Interview-style problem resolution prompt
+- Ingredient-Driven Creativity Generator
+- Intent-Aware Shopping Advisor
+- Household Maintenance & Safety Assistant
+- Generic Driveway Snow Clearing Advisor
 - Food Scout
-- Supercharged Fallacy Finder
-- Ultimate Travel Planner AI
-- Network Engineer: Home Edition
-- AI Trivia Game: "You Probably Don't Know This"
-**Technical Training & Simulation Prompts**
-- SQL RPG Learning Engine (v1.2)
-- AWS Cloud RPG Learning Engine (v1.0)
-- Kubernetes & Docker RPG Learning Engine (v1.0)
-- SQL Terminal Simulator (Training Aid)
-- Linux Terminal Simulation (Training Aid)
-**Miscellaneous**
-- When to Clear the Driveway and How
+- Facilitator-Led Cognitive Load & Work Strain Mapping
+- Explain Like I'm Wrong – Reasoning Validator
+- Documentation Gap & Clarity Analyzer
+- Constraint-First Recipe Generator
+- Cognitive Load - Red Flags
+- Cognitive Load - Facilitator Pre-Session Checklist
+- Cognitive Load & Work Strain Mapping Interview
+- Cognitive Load - Facilitator Cheat Sheet
+- Code Review Assistant
+- Celestial Vision - Zenith Precision
+- Audio Meeting Analyst
+- Article Summarization & Comprehension Prompt
+- Advanced Teams Meeting Analyst (Copilot Enhancement)
+- AI Travel Agent
+- AI Process Feasibility Interview
+- I Think I Need a Lawyer
+- Generic Whiteboard Infographic Style
+
+### Personal-Career-Operating-System
+- Performance Review Generator Prompt
+- PCOS Master Skills & Experience Synthesizer
+- Career File Maintenance & Structure Validator
+- Performance Sustainability Integrator
+- Burnout Deep Analyzer
+- Promotion & Market Readiness Evaluator
+- Performance Aggregator & Trend Analysis Prompt
+- Daily Performance Intake & Structuring Prompt
+
+### Learning-Games-prompts
+- Game Theory Playground
+- YOU PROBABLY DON'T KNOW THIS - Trivia Game
+- SQL RPG Learning Engine
+- SQL Terminal Simulator – Training Aid
+- Question Quality Lab Game
+- Linux Terminal Simulation – Training Aid
+- Life Mode – Financial Survival Simulator
+- Kubernetes & Docker RPG Learning Engine
+- Cascading Failure Simulator
+- Career Fit Explorer Prompt
+- AWS Cloud RPG Learning Engine
+
+### Azure-Related-Prompts
+- Group Policy Object (GPO) Documentation Generator
+- Azure Policy Documentation Generator
+- Conditional Access Policy Simulator
+- Conditional Access Policy Analyzer (Deep-Dive Audit + Simulation Suite) (v3.0)
+- Conditional Access Hardening Advisor
+- Conditional Access Documentation Generator
+- Access Policy Architect — Design Generator
+
+### Script-Documentation-Reviewer
+- Script Documentation Generator
+- Script Documentation Reviewer
+
 Additional brainstormed extensions (outlines only): Regex RPG, Git RPG, Linux/Bash RPG, Networking RPG, Python Basics RPG, Cybersecurity Basics RPG.
+
 ### LinkedIn Sharing Activity
 Shared several of these AI prompts on LinkedIn to demonstrate practical tools for cybersecurity teams, awareness training, and executive communication:
 - Posted 10+ prompts (e.g., Vendor Claim Evaluator, Scam Detection Conversation Helper v2.2 update, Conditional Access Policy Analyzer, Incident Command IR Simulator, etc.)
 - Focus: Enterprise security operations, phishing protection for everyday users, threat intelligence, policy review, and incident handling
 - Goal: Build visibility, share reusable tools, and connect with peers/recruiters in the field
 - Track full list in GitHub README: https://github.com/scottmalin68-commits/scottmalin68-commits/blob/main/README.md
+
 ### AI Prompt Engineering – Public Repositories
 Published repositories of custom AI prompts and PowerShell tools on GitHub to share practical tools for cybersecurity, technical training, career development, automation, and general productivity.
 **GitHub:** https://github.com/scottmalin68-commits
