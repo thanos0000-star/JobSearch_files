@@ -240,6 +240,26 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 
 Additional brainstormed extensions (outlines only): Regex RPG, Git RPG, Linux/Bash RPG, Networking RPG, Python Basics RPG, Cybersecurity Basics RPG.
 
+## Moments & Motivations Worth Highlighting
+
+### Summary of What Energizes You
+- Creating simple, reliable automation that removes pain points and makes recovery or daily tasks easier for the team
+- Building lasting tools, scripts, or shared resources that continue to help people years after you created them
+- Fixing long-standing issues cleanly with no disruption, so systems work the way they were meant to
+
+### Key Positive Moments & Stories
+- Streamlined the service restart process for four Linux-based Symantec 2-factor gateway servers by writing a menu-driven shell script that deletes stale .PID files and restarts services in seconds instead of minutes
+- Discovered and corrected a years-old logic flaw in endpoint location policy, reworked the logic, rolled it out smoothly with zero client impact, and ensured hosts were protected exactly as intended
+- Wrote a number of PowerShell scripts over the last few years to collect data for KPIs and projects, leaving behind reliable scripts the team could continue using
+- Built a shared Knowledgebase in Microsoft OneNote for the group, encouraged the team to contribute support documents and saved emails, and created an asset that is still in use
+
+### What Made Them Feel Good
+- Reduced a cumbersome, manual recovery process to something quick, simple, and repeatable that anyone on the team could use
+- Created a solution that is still in use years later, giving it lasting value for the team
+- Fixed a long-standing issue others had missed, delivered a clean rollout with no problems, and achieved the intended security protection
+- Enjoyed the variety of requests and the satisfaction of delivering useful, reliable scripts that helped with tracking and reporting
+- Made knowledge easier to find across a broad team with only general awareness of many products, filled expertise gaps, and left behind a tool that keeps helping
+
 ### LinkedIn Sharing Activity
 Shared several of these AI prompts on LinkedIn to demonstrate practical tools for cybersecurity teams, awareness training, and executive communication:
 - Posted 10+ prompts (e.g., Vendor Claim Evaluator, Scam Detection Conversation Helper v2.2 update, Conditional Access Policy Analyzer, Incident Command IR Simulator, etc.)
