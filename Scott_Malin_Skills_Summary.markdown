@@ -260,6 +260,91 @@ Additional brainstormed extensions (outlines only): Regex RPG, Git RPG, Linux/Ba
 - Enjoyed the variety of requests and the satisfaction of delivering useful, reliable scripts that helped with tracking and reporting
 - Made knowledge easier to find across a broad team with only general awareness of many products, filled expertise gaps, and left behind a tool that keeps helping
 
+## Senior Security Engineer Interview Practice: Pushing Back on Security Control Exemption Requests
+
+**Question:**  
+Tell me about a time when you had to push back strongly against a business or executive request that would have significantly weakened security posture. What was the request, how did you handle the conversation, and what was the final outcome?
+
+**My Answer:**  
+**Situation:** As Senior Security Engineer at CVS Health, I owned a Group Policy that enforced screen-lock after 5 minutes of inactivity on high-risk monitoring systems in physically secured datacenter command centers. The control prevented unauthorized access to privileged sessions if left unattended.
+
+**Task:** Over several years, I received well over 100 exemption requests from users in that environment, each citing operational inconvenience during long shifts.
+
+**Action:** For every request, I explained the specific risk the control mitigated—session hijacking or misuse in a sensitive area—despite layered physical security. I documented each one thoroughly: the requester’s justification, my risk assessment, and the reason for denial. When users escalated to management, I provided the same clear, evidence-based response. No compensating control was ever proposed that met the same security objective, so I never approved a bypass.
+
+**Result:** The policy stayed in force across all targeted systems. Escalations rarely went beyond management level—no leader wanted to document approval of a security exception that could be traced in an audit or incident. This preserved consistent enforcement and avoided creating unnecessary exposure.
+
+**Key Takeaways:**
+- Scale matters: Handling well over 100 requests shows sustained commitment to risk-based decisions.
+- Documentation and clear risk explanation turn pushback into defensible, professional influence.
+- Management often self-regulates when accountability is clear (no one wants to own a bypass in writing).
+- STAR structure keeps the story tight and recruiter-friendly under pressure.
+
+**Self-Score (1-10):** 9  
+(Strong evidence, clear structure, real scale; could hit 10 with one brief quantifiable risk outcome if available in a future version.)
+
+**Date:** February 26, 2026
+
+### Collected Interests (User-Confirmed)
+**Last Updated:** February 26, 2026
+
+- **Reading & Space Science**  
+  Enjoys science fiction books, especially hard science fiction.  
+  Follows news about space science and recent progress in active space missions (e.g., return to crewed exploration).  
+  Plans to buy a good telescope someday and spend evenings observing stars.
+
+- **Computer Projects & AI**  
+  Computer enthusiast who likes building things on the computer.  
+  Currently very interested in creating AI-powered tools, including:  
+  - Helpers for job search  
+  - Learning games  
+  - Solutions to detect or combat internet scammers
+
+- **Other Interests**  
+  Reads history (secondary interest).  
+  Stays informed on current events in general.
+  
+### Collected Interests (User-Confirmed)
+Hobbies / Free Time:
+- Reading science fiction
+- Following space exploration updates (SpaceX, NASA, Blue Origin)
+- Watching movies based on comic book content
+- Playing a Star Trek-themed tablet game
+- Staying updated on current events
+- Learning about computers and new tech
+
+Favorite Topics to Learn About:
+- Space exploration and return to space
+- Developments in AI (uses AI daily, created over 150 prompts)
+- Computer-related topics
+- Programming (less use for it at home these days)
+
+Activities That Energize or Relax You:
+- Reading sci-fi
+- Watching sci-fi/fantasy movies
+- Light gaming on tablet
+- Keeping up with current events and tech news
+- Sharing scam warnings and helping family/friends avoid threats
+
+Creative / Fun Pursuits:
+- Creating AI prompts for tasks (over 150 so far)
+
+Favorite Genres / Franchises:
+- Star Trek
+- Star Wars
+- Foundation
+- Lord of the Rings
+- (and likely more in sci-fi/fantasy)
+
+Travel or Outdoor Preferences (general only):
+- Travel doesn't interest much — doesn't excite like it does for some people
+
+Other Light Notes (optional):
+- Used to read comic books and game more heavily in the past
+- Enjoys history but focuses more on fiction these days
+- Brings cybersecurity knowledge into personal life by warning family and friends about rising scam threats and reviewing things for them
+
+
 ### LinkedIn Sharing Activity
 Shared several of these AI prompts on LinkedIn to demonstrate practical tools for cybersecurity teams, awareness training, and executive communication:
 - Posted 10+ prompts (e.g., Vendor Claim Evaluator, Scam Detection Conversation Helper v2.2 update, Conditional Access Policy Analyzer, Incident Command IR Simulator, etc.)
