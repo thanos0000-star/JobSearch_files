@@ -1,5 +1,5 @@
 # Scott Malin – Master Skills & Experience Summary
-*Last Updated: February 16, 2026 – Updated AI Prompt Library with full categorization from latest report (FileReport_Last180Days_2026-02-16_1108.csv)*
+*Last Updated: March 05, 2026 – Added RSA Archer GRC / compliance control ownership details*
 
 ## Professional Overview
 Senior cybersecurity leader with **30 years at Aetna → CVS** (desktop 1994, security engineer 2002, senior 2021).
@@ -17,6 +17,7 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - Tanium Certified Operator
 
 ### Recent Additions & Updates
+- March 05, 2026: Added RSA Archer GRC / compliance control ownership details (8+ years ownership/certification of endpoint/firewall/2FA/encryption controls).
 - February 16, 2026: Updated AI Prompt Library with full categorization from latest report (FileReport_Last180Days_2026-02-16_1108.csv).
 - January 31, 2026: Added 7 new LinkedIn-related AI prompts to Job-Search & Career Prompts section.
 - January 30, 2026: Corrected details around the BeyondTrust EPM rollout, updated Matrix and Added two lines to Interview Prep Quick Notes for the elevator pitch practice.
@@ -38,18 +39,19 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - Recent activity: Zscaler Staff Security Researcher screening scheduled Jan 15, 1:00 PM EST (product security focus: vuln triage, incident handling, bug bounty, secure dev processes)
 
 ## Top 10 Market-Demand Skills Matrix
-| # | Skill | Level | STAR Proof | ATS Keywords |
-|---|-------|-------|------------|--------------|
-| 1 | Zero Trust | Expert | Entra ID + Zscaler → 35–40% fewer lateral moves | `Zero Trust`, `Entra ID`, `Conditional Access`, `Zscaler` |
-| 2 | EDR | Expert | CrowdStrike backup SME; tuned Windows/macOS/Linux | `CrowdStrike Falcon`, `EDR` |
-| 3 | PAM | Expert | BeyondTrust EPM rollout → ~5,000 developers / 7,500+ systems; bridged Aetna/CVS post-merger; stripped thousands of local admins | `BeyondTrust`, `PAM`, `Least Privilege` |
-| 4 | IGA | No | — | — |
-| 5 | CSPM | No | — | — |
-| 6 | SOAR | Strong | PowerShell/Python automation for remediation workflows | `PowerShell`, `Python`, `Automation` |
-| 7 | Vuln Mgmt | Expert | Tanium + scripts → 40% critical drop | `Tanium`, `Qualys` |
-| 8 | IR Leadership | Expert | 40+ P1 calls, 100% SLA | `Incident Response`, `Root Cause` |
-| 9 | Automation | Expert | 80% manual tasks gone | `PowerShell`, `Python`, `Bash` |
-|10| Threat Hunting | Strong | Splunk rogue-device scripts | `Splunk`, `KQL` |
+| #  | Skill                        | Level  | STAR Proof                                                                 | ATS Keywords                                      |
+|----|------------------------------|--------|----------------------------------------------------------------------------|---------------------------------------------------|
+| 1  | Zero Trust                   | Expert | Entra ID + Zscaler → 35–40% fewer lateral moves                            | `Zero Trust`, `Entra ID`, `Conditional Access`, `Zscaler` |
+| 2  | EDR                          | Expert | CrowdStrike backup SME; tuned Windows/macOS/Linux                         | `CrowdStrike Falcon`, `EDR`                       |
+| 3  | PAM                          | Expert | BeyondTrust EPM rollout → ~5,000 developers / 7,500+ systems; bridged Aetna/CVS post-merger; stripped thousands of local admins | `BeyondTrust`, `PAM`, `Least Privilege`           |
+| 4  | IGA                          | No     | —                                                                          | —                                                 |
+| 5  | CSPM                         | No     | —                                                                          | —                                                 |
+| 6  | SOAR                         | Strong | PowerShell/Python automation for remediation workflows                     | `PowerShell`, `Python`, `Automation`              |
+| 7  | Vuln Mgmt                    | Expert | Tanium + scripts → 40% critical drop                                       | `Tanium`, `Qualys`                                |
+| 8  | IR Leadership                | Expert | 40+ P1 calls, 100% SLA                                                     | `Incident Response`, `Root Cause`                 |
+| 9  | Automation                   | Expert | 80% manual tasks gone                                                      | `PowerShell`, `Python`, `Bash`                    |
+|10  | Threat Hunting               | Strong | Splunk rogue-device scripts                                                | `Splunk`, `KQL`                                   |
+|11  | GRC / Compliance Management  | Expert | Owned & certified portfolio of enterprise security controls in RSA Archer for 8+ years (~2010–2024, formalized ~2015+); focused on endpoint defense, host firewall policies, 2FA, encryption; managed quarterly/annual cycles with manual evidence (policy screenshots, inventories, auditor drill-downs); updated controls to technology-agnostic during migrations; consistent audit success, no major findings | `RSA Archer`, `GRC`, `Compliance Management`, `Control Certification`, `Audit Evidence`, `Compliance Evidence`, `Control Attestation`, `Policy Compliance`, `Evidence Management` |
 
 ## Core Expertise Areas – Role-Tagged
 ### Host Firewall Policy
@@ -66,6 +68,34 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - **McAfee MOVE (2012-2014)** – 200 **Windows virtual scanner nodes**, 40k VDI, killed disk storms.
   **Role:** Security Engineer – Aetna
 - **Reversed to SEP (2014)** – decommissioned when low-impact engines matured.
+
+### Symantec Endpoint Protection Firewall Logic Defect Remediation
+- **Discovered long-standing logic defect** in Symantec Endpoint Protection affecting ~50% of endpoints; trusted network policy defaulted even on untrusted networks, leaving systems without protection for years (no known exploits).
+- **Led root-cause analysis and redesign** as product SME: reordered location logic (trusted network → VPN condition → untrusted last) to prevent defaulting; fixed application to all adapters so untrusted rules properly defended physical adapters during VPN use.
+- **Staged migration** to corrected policy group to monitor for application issues (learned from prior Defender Firewall VoIP/UDP port problems); goal was transparent protection with zero user impact.
+- **Result:** No issues reported on migrated systems—fix was seamless as designed; enhanced protection applied to completed endpoints before rollout paused due to Symantec retirement decision.
+- **Outcome informed transition** to Windows Defender Firewall (adapter-specific locations), which handled VPN/physical adapter separation more cleanly despite minor reevaluation limitations under high latency.
+
+### Security Controls Certification & Compliance Management (Archer)
+- **Owned and regularly certified multiple enterprise security controls** in RSA Archer across both **Security Engineer** and **Senior Security Engineer** roles (~2010–2024, with formalized program starting ~2015).
+  - Primary focus: Controls tied to core engineering responsibilities, including endpoint defense/protection, host firewall policies, two-factor authentication (2FA), and encryption requirements.
+  - Managed quarterly certification cycles (with major annual components) as ongoing minor tasks; handled evidence collection, review, and submission to internal audit teams.
+  - Prepared and submitted detailed compliance evidence, including policy screenshots, system inventories/config exports, and responses to auditor drill-down requests on specific systems.
+  - Updated control descriptions, test procedures, and language as technologies evolved (e.g., during AV migrations, Zero Trust adoption); shifted toward technology-agnostic wording to ensure ongoing applicability post-tool changes (e.g., decoupling from legacy AV).
+  - Maintained consistent compliance with no significant audit findings; routinely addressed minor issues like retired/non-existent systems during reviews.
+  - Process was fully manual (no automated workflows or integrations used).
+  **Role:** Security Engineer → Senior Security Engineer – Aetna / CVS Health
+  
+### Zero Trust Architecture Contribution
+- Supported enterprise Zero Trust implementation using Microsoft Intune, Entra ID Conditional Access, and Zscaler Client Connector; provided endpoint security input, tested policy configurations, and helped tune controls that reduced potential lateral movement by 35–40% across 250,000+ endpoints.
+
+### Enforcement of Forced Screensaver Policy for Unattended Systems
+- **Managed a restricted AD group** that enforced 5-minute forced screensaver + lock on unattended systems to prevent data exposure or compromise when users walked away.
+- **Handled repeated requests** to relax or remove the policy, mostly from teams needing always-on monitoring stations (e.g., network control room wall of monitors inside secured datacenter).
+- **Communicated risk clearly** in basic terms: any end-user system in this group could be left unlocked, creating opportunity for compromise; explained why the control was required and why exceptions were limited to physically secured, service-account-only setups.
+- **Rejected invalid requests** consistently; documented each rejection in team records; notified my management proactively whenever a requester mentioned escalation (none followed through to my knowledge).
+- **Prepared for potential pushback**: If escalation had occurred, we would have required formal risk sign-off from the requester's management; any resulting breach would have been treated as serious.
+- **Left behind reusable guidance**: Fully documented approval criteria, risk rationale, and exception process in the team knowledge base (Microsoft OneNote) for continuity after my departure.
 
 ### Active Directory Security & Privilege Automation
 - Developed PowerShell security toolkit for enterprise AD environments:
@@ -303,6 +333,19 @@ Tell me about a time when you had to push back strongly against a business or ex
 - **Other Interests**  
   Reads history (secondary interest).  
   Stays informed on current events in general.
+
+### Vendor Collaboration & Technical Evaluation
+- **Strategic Vendor Partner (Microsoft & Symantec)** – Worked directly with Microsoft engineers on enterprise projects and maintained a 20+ year relationship with Symantec.
+- **The "Follow the Sun" Lesson:** Identified how frequent anti-virus definition updates (meant for "follow the sun" speed) created massive 1GB disk storms in VDI environments.
+- **Technical Evaluator:** Provided the expert evaluations and recommendations that drove major enterprise tool selections, even when final procurement was handled at the executive level.
+
+### Mentorship & Onboarding
+- **Team Mentor (22+ Years)** – Actively mentored and coached newer engineers on the security team.
+- **Onboarding Lead:** Assisted management with the technical onboarding of new engineers, ensuring they had the proper access and environment setup to be productive from day one.
+
+### Complex Troubleshooting & Risk Management
+- **802.1x Protocol Conflict Resolution (Windows XP/7 Transition):** Identified a OS-level defect where Windows XP prioritized PEAP over EAP-TLS, causing connectivity issues when new firewall policies added latency.
+- **Strategic Risk Mitigation:** Led the rollback and "shelving" of the policy until the Windows 7 migration, demonstrating a senior-level focus on stability over forcing a broken change.
   
 ### Collected Interests (User-Confirmed)
 Hobbies / Free Time:
@@ -370,7 +413,7 @@ Built 200-node McAfee MOVE grid → 40k VDI, zero disk storms
 Led Symantec removal (~120K endpoints) → CrowdStrike AV flip; decommissioned 10 servers
 Primary SME for ~30 elegant Defender Firewall rules
 PowerShell/Python ninja | Contributed to Zero-Trust via Intune+Entra ID+Zscaler
-NIST 800-53 auditor | Azure/AWS hardened
+NIST 800-53 auditor | Azure/AWS hardened | RSA Archer control certification (endpoint/firewall/2FA/encryption)
 Developed PowerShell AD security tools (privilege analysis, escalation paths)
 GitHub: AI prompts (cybersecurity/exec comms/Azure IAM/script doc reviewer) + PowerShell AD tools → github.com/scottmalin68-commits
 Hartford County, CT or 100% remote | Ready Day-1
