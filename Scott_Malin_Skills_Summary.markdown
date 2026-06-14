@@ -52,8 +52,10 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 | 9  | Automation                   | Expert | 80% manual tasks gone                                                      | `PowerShell`, `Python`, `Bash`                    |
 |10  | Threat Hunting               | Strong | Splunk rogue-device scripts                                                | `Splunk`, `KQL`                                   |
 |11  | GRC / Compliance Management  | Expert | Owned & certified portfolio of enterprise security controls in RSA Archer for 8+ years (~2010–2024, formalized ~2015+); focused on endpoint defense, host firewall policies, 2FA, encryption; managed quarterly/annual cycles with manual evidence (policy screenshots, inventories, auditor drill-downs); updated controls to technology-agnostic during migrations; consistent audit success, no major findings | `RSA Archer`, `GRC`, `Compliance Management`, `Control Certification`, `Audit Evidence`, `Compliance Evidence`, `Control Attestation`, `Policy Compliance`, `Evidence Management` |
+|    | Data Classification & DLP    | Strong | Built 4 AIP external scanners + client distribution; PHI/proprietary classification; Purview foundation | `Azure Information Protection`, `AIP`, `Microsoft Purview`, `Data Classification`, `DLP`, `PHI` |
 
 ## Core Expertise Areas – Role-Tagged
+
 ### Host Firewall Policy
 - **Primary SME (2002-2024)** – owned enterprise Defender Firewall strategy; backed by Garfield → Rich → Arturo over the years.
   → Designed **3-tier location-aware ruleset** (Public = max lock-down, Domain = balanced, Private = N/A for enterprise).
@@ -75,6 +77,16 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
 - **Staged migration** to corrected policy group to monitor for application issues (learned from prior Defender Firewall VoIP/UDP port problems); goal was transparent protection with zero user impact.
 - **Result:** No issues reported on migrated systems—fix was seamless as designed; enhanced protection applied to completed endpoints before rollout paused due to Symantec retirement decision.
 - **Outcome informed transition** to Windows Defender Firewall (adapter-specific locations), which handled VPN/physical adapter separation more cleanly despite minor reevaluation limitations under high latency.
+
+### Public Key Infrastructure (PKI) and Code Signing
+- Heavy user of enterprise PKI operations via **Venafi** during both Security Engineer and Senior Security Engineer roles at CVS Health.
+- Requested and managed certificates for multiple production applications, including issuance, revocation, and expiration monitoring.
+- Mentored team members on PKI procedures and assisted with troubleshooting certificate-related issues.
+- Implemented internal code-signing process: installed signing certificates directly in code repositories so production code was automatically signed during compile time.
+- Result: significantly reduced false positive detections from endpoint protection solutions (Symantec Endpoint Protection and CrowdStrike Falcon).
+- Prior to full repository integration, manually signed valid internally developed applications on-demand to whitelist them and prevent unnecessary blocks by EDR tools.
+- This work improved trust in internal software, lowered operational noise for the security operations team, and supported smoother endpoint protection performance.
+  **Role:** Security Engineer → Senior Security Engineer – CVS Health
 
 ### Security Controls Certification & Compliance Management (Archer)
 - **Owned and regularly certified multiple enterprise security controls** in RSA Archer across both **Security Engineer** and **Senior Security Engineer** roles (~2010–2024, with formalized program starting ~2015).
@@ -102,7 +114,7 @@ CISSP | NIST 800-53 auditor | Hartford County, CT or 100% remote.
   - AD-PrivilegeAnalyzer.ps1: Detects privilege drift, shadow admins, unintended inheritance; ranks high-risk accounts/groups.
   - AD-Security-Posture-Scanner.ps1: Scans for misconfigurations, weak delegation, insecure defaults.
   - Invoke-ADAttackPathShortener.ps1: Graphs shortest escalation paths to Domain Admins from any user.
-  - Invoke-ADLeastPrivilegeAdvisor.ps1: Identifies unused access, stale groups/...(truncated 2950 characters)...d resume for factual mismatches, keyword gaps, or credibility issues, with fixes to ensure consistency for recruiters and ATS.
+  - Invoke-ADLeastPrivilegeAdvisor.ps1: Identifies unused access, stale groups/...
 
 ## AI Prompt Library – Master List
 
@@ -334,6 +346,14 @@ Tell me about a time when you had to push back strongly against a business or ex
   Reads history (secondary interest).  
   Stays informed on current events in general.
 
+### Microsoft Azure Information Protection (AIP) & Microsoft Purview
+- Owned enterprise deployment of Microsoft Azure Information Protection (AIP) for several years as Security Engineer at Aetna/CVS Health.
+- Built and maintained 4 external policy scanners using privileged non-person service accounts to scan documents and automatically classify proprietary information and Protected Health Information (PHI).
+- Designed and enforced classification policies that applied labels directly into documents to support data loss prevention and compliance (HIPAA, NIST 800-53).
+- Managed distribution of multiple versions of the AIP client across the endpoint fleet.
+- This AIP foundation directly supported the later transition to Microsoft Purview data governance and compliance capabilities.
+**Role:** Security Engineer – Aetna / CVS Health
+
 ### Vendor Collaboration & Technical Evaluation
 - **Strategic Vendor Partner (Microsoft & Symantec)** – Worked directly with Microsoft engineers on enterprise projects and maintained a 20+ year relationship with Symantec.
 - **The "Follow the Sun" Lesson:** Identified how frequent anti-virus definition updates (meant for "follow the sun" speed) created massive 1GB disk storms in VDI environments.
@@ -448,3 +468,14 @@ Public GitHub link added for easy sharing/reference: https://github.com/scottmal
 Say **“push”** if you want the identical file + tracker in Dropbox.
 Your story is **bulletproof, humble, and recruiter-catnip**.
 See you for the LinkedIn post polish whenever you’re ready. 😎🐱🐱
+
+### Public Key Infrastructure (PKI) and Code Signing
+
+- Heavy user of enterprise PKI operations via **Venafi** during both Security Engineer and Senior Security Engineer roles at CVS Health.
+- Requested and managed certificates for multiple production applications, including issuance, revocation, and expiration monitoring.
+- Mentored team members on PKI procedures and assisted with troubleshooting certificate-related issues.
+- Implemented internal code-signing process: installed signing certificates directly in code repositories so production code was automatically signed during compile time.
+- Result: significantly reduced false positive detections from endpoint protection solutions (Symantec Endpoint Protection and CrowdStrike Falcon).
+- Prior to full repository integration, manually signed valid internally developed applications on-demand to whitelist them and prevent unnecessary blocks by EDR tools.
+- This work improved trust in internal software, lowered operational noise for the security operations team, and supported smoother endpoint protection performance.
+
